@@ -70,7 +70,11 @@ body {
     font-size: 40px;
 }
 
-.starting_form {
+.starting_title span {
+    color: #ED2823;
+}
+
+.starting_form { 
     padding-top: 30px;
     font-weight: 500;
     letter-spacing: 0em;
@@ -87,10 +91,6 @@ body {
     padding: 16px 32px 16px 32px;
     border-radius: 30px;
     margin-bottom: 16px;
-}
- 
-.starting_confirm_form {
-    padding-top: 20px;
 }
 
 .starting_form_button {
@@ -116,3 +116,14 @@ body {
     background-color: #D91B16;
     }
 
+.starting_confirm_form {
+    display: flex;
+    align-items: center;
+}
+.starting_privacy {
+    padding-left: 20px;
+    word-wrap: break-word;
+    font-size: 14px;
+    color: #282828;
+    cursor: pointer;
+}
