@@ -13,8 +13,7 @@ body {
 }
 
 .container {
-    position:relative;
-    width: 100%;
+    display: flex;
     max-width: 1220px;
     margin: 0 auto;
 } 
@@ -22,7 +21,6 @@ body {
 .header {
     width: 100%;
     padding-top: 24px;
-    position: absolute;
 }
 
 .header_inner {
@@ -123,16 +121,10 @@ body {
 
 .starting_privacy {
     opacity: 60%;
-    padding-left: 25px;
+    padding-left: 40px;
     font-size: 14px;
     color: #282828;
 }
-
-.starting_img {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
   
   .starting_img img {
     border-radius: 50%;
@@ -143,11 +135,20 @@ body {
 }
 
 .starting_bottom_ad, .starting_ad_left, .starting_ad_right {
-    align-items: center;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
 .starting_bottom_ad span {
     padding-left: 15px;
+}
+
+.more_left span {
+        display: block;
+    }
+
+.more_details {
+    max-width: 1010px;
+    display: block;
 }
