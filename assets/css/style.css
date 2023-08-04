@@ -152,34 +152,33 @@ body {
 }
 
 .more_details { 
-    max-width: 1010px;
-    width: 100%;
+    justify-content: space-between;
     display: flex;
+    width: 100%;
     margin: 0 auto;
 }
 
 .more_left {
-    padding-top: 160px;
+    padding-top: 115px;
     align-items: center;
-    align-content: center;
-    justify-content: space-evenly;
-    display: flex;
+    max-width: 600px;
     width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .more_left_img {
+    background: #FFFFFF;
     width: 180px;
     height: 150px;
-    padding: 40px 34px 40px 34px;
     border-radius: 8px;
-    gap: 12px;
-    box-shadow: 0px 30px 30px 0px #999EA91A;
+    box-shadow: 0px 30px 30px rgba(153, 158, 169, 0.1);
+    gap: 14px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 24px 15px;
 }
 
 .more_left_img span {
@@ -187,16 +186,14 @@ body {
     color: #282828;
     font-size: 14px;
     line-height: 20px;
-    text-align: center;
     font-weight: 600;
+    text-align: center;
 }
 
 .more_right {
-    padding-top: 190px;
-    justify-content: center;
-    align-items: center;
+    max-width: 600px;
     width: 100%;
-    max-width: 490px;
+    padding-top: 190px;
 }
 
 .more_right_title {
@@ -207,7 +204,6 @@ body {
 }
 
 .more_right_title p {
-    padding-top: 5px;
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
@@ -260,27 +256,40 @@ body {
     color: #FFFFFF;
 }
 
-.comparison {
-    border: 1px solid black;
-    display: flex;
+.comparison_image {
+    margin-top: -225px;
+    background-image: url('file:///Users/nakemiin/site/layout-html/source/triangle_main.png');
+    padding-bottom: 100px;
 }
 
-.comparison h2 {
+.comparison_image h2 {
+    padding-top: 300px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
     text-align: center;
+}
+
+.comparison {
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-evenly;
 }
 
 .comparison_left {
     font-size: 18px;
     font-weight: 500;
     line-height: 32px;
-    color: #282828; 
+    color: #FFFFFF; 
+    background-color: #282828;
 }
 
 .comparison_left h3 {
+    text-align: left;
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;    
-    color: #282828;
+    color: #FFFFFF;
 }
 
 .comparison_right {
@@ -288,14 +297,22 @@ body {
     font-weight: 500;
     line-height: 32px;
     color: #282828; 
+    background-color: #D3D3D3;
 }
 
 .comparison_right h3 {
+    text-align: left;
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;    
-    color: #282828;
+    color: #616161;
 }
 .comparison ul li {
-    padding-left: 25px;
+    padding-left: 5px;
+}
+
+.comparison_left, .comparison_right {
+    border-radius: 20px;
+    padding: 80px 48px;
+    height: 100%;
 }
