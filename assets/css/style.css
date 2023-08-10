@@ -316,3 +316,134 @@ body {
     padding: 80px 48px;
     height: 100%;
 }
+
+.infographic {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.infographic_block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.round_text {
+    width: 86px;
+    height: 86px;
+    line-height: 86px;
+    border: 1px solid #D3D3D3;
+    border-radius: 50%;
+    color: #ED2823;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.round_bottom_text {
+    max-width: 260px;
+    color: #282828;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.auto_price_header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.auto_price_header h2 {
+    width: 45%;
+    line-height: 40px;
+    color: #282828;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.auto_price_header h3 {
+    color: #616161;
+    font-size: 16px;
+    font-weight: 500;
+    width: 30%;
+    line-height: 24px;
+}
+
+.auto_title {
+    width: 100%;
+    opacity: 50%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #616161;
+}
+
+.auto_name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    color: #282828;
+}
+
+.new_price {
+    color: #FC3E39;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.old_price {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #616161;
+    opacity: 50%;
+    text-decoration: line-through;
+}
+.ap_sec_block {
+    margin-bottom: 50px;
+    max-width: 400px;
+    display: flex;
+}
+
+.auto_info {
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.auto_img {
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.auto_price_block {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.auto_price_details_button {
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #ED2823;
+    width: 280px;
+    height: 55px;
+    padding: 18px 40px 18px 40px;
+    border-radius: 30px;
+    transition-duration: 0.5s;
+    margin-bottom: 200px;
+}
+
+.auto_price_details_button:hover {
+    box-shadow: 0px 20px 40px 0px #dd3d3a62;
+    box-shadow: 0px 64px 94px 0px #dd3d3a62;
+}
